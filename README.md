@@ -15,4 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![snake animation](https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/snake.svg" />
+  <img alt="snake animation" src="https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/snake.svg" />
+</picture>
