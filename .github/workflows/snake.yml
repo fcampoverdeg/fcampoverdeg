@@ -21,6 +21,9 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           games: "pacman"
 
+      - name: list generated files
+        run: ls -la dist/
+
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
