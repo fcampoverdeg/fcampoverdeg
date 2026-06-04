@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   generate:
     permissions:
@@ -22,7 +25,7 @@ jobs:
           games: "pacman"
 
       - name: list generated files
-        run: ls -la dist/
+        run: ls -laR dist/ || echo "dist/ not found, searching..." && find . -name "*.svg" -not -path "./.git/*"
 
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4
