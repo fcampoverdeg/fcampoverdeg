@@ -15,8 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/pacman-contribution-graph.svg" />
-  <img alt="pacman animation" src="https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/pacman-contribution-graph.svg" />
-</picture>
+![pacman animation](https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/pacman-contribution-graph.svg)
