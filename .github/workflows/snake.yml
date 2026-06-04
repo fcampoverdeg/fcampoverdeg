@@ -1,4 +1,4 @@
-name: generate pacman animation
+name: generate galaga animation
 
 on:
   schedule:
@@ -15,11 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: generate pacman.svg
+      - name: generate galaga.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          games: "pacman"
+          games: "galaga"
 
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4
