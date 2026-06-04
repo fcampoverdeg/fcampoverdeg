@@ -14,7 +14,7 @@
 <h3 align="center">Tech Stack</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,c,swift,html,css,js,react,cpp,rust,docker,bash,linux,ros&perline=7&theme=dark" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=linux,c,cpp,rust,python,swift,js,react,html,css,docker,bash,arduino,ros&perline=7&theme=dark" alt="Tech Stack" />
 </p>
 
 ---
