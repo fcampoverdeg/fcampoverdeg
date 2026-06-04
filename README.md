@@ -15,4 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![galaga animation](https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/galaga-contribution-graph.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/galaga-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/galaga-contribution-graph.svg" />
+  <img alt="galaga animation" src="https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/galaga-contribution-graph.svg" />
+</picture>
