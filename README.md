@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![pacman animation](https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/pacman.svg)
+![pacman animation](https://raw.githubusercontent.com/fcampoverdeg/fcampoverdeg/output/pacman-contribution-graph.svg)

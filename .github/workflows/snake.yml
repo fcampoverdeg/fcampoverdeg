@@ -19,10 +19,7 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          game: "pacman"
-          gameTheme: "github-dark"
-          outputs: |
-            dist/pacman.svg
+          games: "pacman"
 
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4
